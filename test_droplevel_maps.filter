@@ -1,0 +1,100 @@
+#Created By: hellcat5
+#creation date: 20160415
+#update date: 20160715
+#purpose: soundcheck
+#include: reference.txt
+#
+#************************
+# droplevel test
+#************************
+# Sound 1
+Show
+    Class Maps
+	DropLevel >= 62
+	DropLevel <= 68
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 1 100
+
+# Sound 2
+Show
+    Class Maps
+	DropLevel = 69
+	SetFontSize 45
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 2 100
+
+# Sound 3
+Show
+    Class Maps
+	DropLevel = 70
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 3 100
+
+# Sound 4
+Show
+    Class Maps
+	DropLevel = 71
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 4 100
+
+# Sound 5
+Show
+    Class Maps
+	DropLevel = 72
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 5 100
+
+# Sound 6
+Show
+    Class Maps
+	DropLevel 73
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 6 100
+
+# Sound 7
+Show
+    Class Maps
+	DropLevel 74
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 7 100
+
+# Sound 8
+Show
+    Class Maps
+	DropLevel 75
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 8 100
+
+# Sound 9
+Show
+    Class Maps
+	DropLevel >= 76
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 9 100

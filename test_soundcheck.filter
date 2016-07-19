@@ -1,0 +1,89 @@
+#Created By: hellcat5
+#creation date: 20160415
+#update date: 20160715
+#purpose: soundcheck
+#include: reference.txt
+#
+#************************
+# currency sound test
+#************************
+# Sound 1
+Show
+    BaseType "Scroll Fragment"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 1 100
+
+# Sound 2
+Show
+    BaseType "Scroll of Wisdom"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 2 100
+
+# Sound 3
+Show
+    BaseType "Portal Scroll"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 3 100
+
+# Sound 4
+Show
+    BaseType "Orb of Transmutation"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 4 100
+
+# Sound 5
+Show
+    BaseType "Orb of Alteration"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 5 100
+
+# Sound 6
+Show
+    BaseType "Orb of Augmentation"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 6 100
+
+# Sound 7
+Show
+    BaseType "Transmutation Shard"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 7 100
+
+# Sound 8
+Show
+    BaseType "Alteration Shard"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 8 100
+
+# Sound 9
+Show
+    BaseType "Alchemy Shard"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 170 158 130
+	SetBackgroundColor 170 158 130
+	PlayAlertSound 9 100
