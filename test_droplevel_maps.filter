@@ -1,100 +1,48 @@
 #Created By: hellcat5
 #creation date: 20160415
 #update date: 20160715
-#purpose: soundcheck
+#purpose: Map DropLevel testing
 #include: reference.txt
 #
 #************************
-# droplevel test
+# map device items
 #************************
-# Sound 1
+# map drops - magenta background black text - top tier
 Show
-    Class Maps
+	Class Maps
+	DropLevel >= 79
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 200 0 150
+	SetBackgroundColor 200 0 150
+	PlayAlertSound 7 200
+
+# map drops - magenta background black text - middle tier
+Show
+	Class Maps
+	DropLevel >= 74
+	DropLevel <= 78
+	SetFontSize 40
+	SetTextColor 0 0 0
+	SetBorderColor 200 0 150
+	SetBackgroundColor 200 0 150
+	PlayAlertSound 7 150
+
+# map drops - magenta background black text - low tier
+Show
+	Class Maps
 	DropLevel >= 62
-	DropLevel <= 68
-	SetFontSize 45
+	DropLevel <= 73
+	SetFontSize 40
 	SetTextColor 0 0 0
-	SetBorderColor 170 158 130
-	SetBackgroundColor 170 158 130
-	PlayAlertSound 1 100
+	SetBorderColor 170 0 120
+	SetBackgroundColor 170 0 120
 
-# Sound 2
+# map fragments and other map types - magenta black text
 Show
-    Class Maps
-	DropLevel = 69
-	SetFontSize 45
+	Class Map
 	SetFontSize 45
 	SetTextColor 0 0 0
-	SetBorderColor 170 158 130
-	SetBackgroundColor 170 158 130
-	PlayAlertSound 2 100
-
-# Sound 3
-Show
-    Class Maps
-	DropLevel = 70
-	SetFontSize 45
-	SetTextColor 0 0 0
-	SetBorderColor 170 158 130
-	SetBackgroundColor 170 158 130
-	PlayAlertSound 3 100
-
-# Sound 4
-Show
-    Class Maps
-	DropLevel = 71
-	SetFontSize 45
-	SetTextColor 0 0 0
-	SetBorderColor 170 158 130
-	SetBackgroundColor 170 158 130
-	PlayAlertSound 4 100
-
-# Sound 5
-Show
-    Class Maps
-	DropLevel = 72
-	SetFontSize 45
-	SetTextColor 0 0 0
-	SetBorderColor 170 158 130
-	SetBackgroundColor 170 158 130
-	PlayAlertSound 5 100
-
-# Sound 6
-Show
-    Class Maps
-	DropLevel 73
-	SetFontSize 45
-	SetTextColor 0 0 0
-	SetBorderColor 170 158 130
-	SetBackgroundColor 170 158 130
-	PlayAlertSound 6 100
-
-# Sound 7
-Show
-    Class Maps
-	DropLevel 74
-	SetFontSize 45
-	SetTextColor 0 0 0
-	SetBorderColor 170 158 130
-	SetBackgroundColor 170 158 130
-	PlayAlertSound 7 100
-
-# Sound 8
-Show
-    Class Maps
-	DropLevel 75
-	SetFontSize 45
-	SetTextColor 0 0 0
-	SetBorderColor 170 158 130
-	SetBackgroundColor 170 158 130
-	PlayAlertSound 8 100
-
-# Sound 9
-Show
-    Class Maps
-	DropLevel >= 76
-	SetFontSize 45
-	SetTextColor 0 0 0
-	SetBorderColor 170 158 130
-	SetBackgroundColor 170 158 130
-	PlayAlertSound 9 100
+	SetBorderColor 230 0 180
+	SetBackgroundColor 230 0 180
+	PlayAlertSound 7 150
