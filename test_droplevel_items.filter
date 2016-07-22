@@ -9,18 +9,18 @@
 #************************
 # Sound 1
 Show
-    BaseType
+    BaseType "Agate Amulet"
 	DropLevel >= 1
 	DropLevel <= 10
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
 	SetBackgroundColor 170 158 130
-	PlayAlertSound 1 100
+	PlayAlertSound 1 150
 
 # Sound 2
-Show
-    BaseType
+Show 
+    BaseType "Agate Amulet"
 	DropLevel >= 11
 	DropLevel <= 20
 	SetFontSize 45
@@ -28,80 +28,80 @@ Show
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
 	SetBackgroundColor 170 158 130
-	PlayAlertSound 2 100
+	PlayAlertSound 2 150
 
 # Sound 3
 Show
-	BaseType
+	BaseType "Agate Amulet"
 	DropLevel >= 21
 	DropLevel <= 30
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
 	SetBackgroundColor 170 158 130
-	PlayAlertSound 3 100
+	PlayAlertSound 3 150
 
 # Sound 4
 Show
-	BaseType
+	BaseType "Agate Amulet"
 	DropLevel >= 31
 	DropLevel <= 40
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
 	SetBackgroundColor 170 158 130
-	PlayAlertSound 4 100
+	PlayAlertSound 4 150
 
 # Sound 5
 Show
-	BaseType
+	BaseType "Agate Amulet"
 	DropLevel >= 41
 	DropLevel <= 50
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
 	SetBackgroundColor 170 158 130
-	PlayAlertSound 5 100
+	PlayAlertSound 5 150
 
 # Sound 6
 Show
-	BaseType
+	BaseType "Agate Amulet"
 	DropLevel >= 51
 	DropLevel <= 60
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
 	SetBackgroundColor 170 158 130
-	PlayAlertSound 6 100
+	PlayAlertSound 6 150
 
 # Sound 7
 Show
-	BaseType
+	BaseType "Agate Amulet"
 	DropLevel >= 61
 	DropLevel <= 70
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
 	SetBackgroundColor 170 158 130
-	PlayAlertSound 7 100
+	PlayAlertSound 7 150
 
 # Sound 8
 Show
-	BaseType
+	BaseType "Agate Amulet"
 	DropLevel >= 71
 	DropLevel <= 80
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
 	SetBackgroundColor 170 158 130
-	PlayAlertSound 8 100
+	PlayAlertSound 8 150
 
 # Sound 9
 Show
-	BaseType
+	BaseType "Agate Amulet"
 	DropLevel >= 81
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
 	SetBackgroundColor 170 158 130
-	PlayAlertSound 9 100
+	PlayAlertSound 9 150
