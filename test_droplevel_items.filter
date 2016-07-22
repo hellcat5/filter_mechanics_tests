@@ -1,7 +1,7 @@
 #Created By: hellcat5
 #creation date: 20160415
-#update date: 20160715
-#purpose: soundcheck
+#update date: 20160722
+#purpose: soundcheck / droplevel tests
 #include: reference.txt
 #
 #************************
@@ -9,7 +9,9 @@
 #************************
 # Sound 1
 Show
-	DropLevel = 53
+    BaseType
+	DropLevel >= 1
+	DropLevel <= 10
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
@@ -18,8 +20,9 @@ Show
 
 # Sound 2
 Show
-    Class Maps
-	DropLevel = 69
+    BaseType
+	DropLevel >= 11
+	DropLevel <= 20
 	SetFontSize 45
 	SetFontSize 45
 	SetTextColor 0 0 0
@@ -29,8 +32,9 @@ Show
 
 # Sound 3
 Show
-    Class Maps
-	DropLevel = 70
+	BaseType
+	DropLevel >= 21
+	DropLevel <= 30
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
@@ -39,8 +43,9 @@ Show
 
 # Sound 4
 Show
-    Class Maps
-	DropLevel = 71
+	BaseType
+	DropLevel >= 31
+	DropLevel <= 40
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
@@ -49,8 +54,9 @@ Show
 
 # Sound 5
 Show
-    Class Maps
-	DropLevel = 72
+	BaseType
+	DropLevel >= 41
+	DropLevel <= 50
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
@@ -59,8 +65,9 @@ Show
 
 # Sound 6
 Show
-    Class Maps
-	DropLevel 73
+	BaseType
+	DropLevel >= 51
+	DropLevel <= 60
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
@@ -69,8 +76,9 @@ Show
 
 # Sound 7
 Show
-    Class Maps
-	DropLevel 74
+	BaseType
+	DropLevel >= 61
+	DropLevel <= 70
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
@@ -79,8 +87,9 @@ Show
 
 # Sound 8
 Show
-    Class Maps
-	DropLevel 75
+	BaseType
+	DropLevel >= 71
+	DropLevel <= 80
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
@@ -89,8 +98,8 @@ Show
 
 # Sound 9
 Show
-    Class Maps
-	DropLevel >= 76
+	BaseType
+	DropLevel >= 81
 	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 170 158 130
